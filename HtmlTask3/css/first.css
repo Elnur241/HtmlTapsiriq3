@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Road Rage;
+  }
+  .holder {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 880px;
+    height: 401px;
+    background-color: white;
+  }
+  .dv {
+   
+    z-index: -1;
+    position: relative;
+    background-color: rgb(233, 243, 243);
+    width: 22%;
+    height: 150px;
+    margin: 15px;
+  }
+  #one {
+    height: 200px;
+    background-image: url("../img/istockphoto-486058484-612x612.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(233, 243, 243);
+
+  
+  }
+  #two {
+      height: 200px;
+      background-image: url("../img/71EWRyqzw0L._AC._SR360\,460.jpg");
+      background-size:cover;
+      background-position: center;
+      background-color: rgb(233, 243, 243);
+    }
+    #three {
+      height: 200px;
+      background-image: url("../img/fujicam.jpg");
+      background-size: cover;
+      background-position: center;
+      background-color: rgb(233, 243, 243);
+    }
+    #four{
+      height: 200px;
+      background-image: url("../img/camera.webp");
+      background-size: cover;
+      background-position: center;
+      background-color: rgb(233, 243, 243);
+    }
+  .dv > span {
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+  }
+  .dv::after {
+    position: absolute;
+   color: floralwhite;
+    top: 10px;
+    content: "New";
+    padding: 2px;
+    height: 20px;
+    background-color: rgb(126, 53, 221);
+    border-radius: 3px;
+  }

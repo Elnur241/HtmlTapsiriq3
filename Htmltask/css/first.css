@@ -1,0 +1,20 @@
+body, html {
+    height: 100vh;
+    margin: auto;
+box-sizing: border-box;
+overflow-x: scroll;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../img/t1.png");
+  
+    /* Full height */
+    height: 900px;;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
